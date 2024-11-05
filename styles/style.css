@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "bigfont";
+    src: url(/font/BADABB__.TTF);
+}
+
+@font-face {
+    font-family: "littlefont";
+    src: url(/font/batmfa__.ttf);
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    padding: 30px 0px;
+}
+/* HEADER */
+
+#bgImage {
+    background-image: url(/img/fond.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    background-color: yellow;
+    height: 70px;
+}
+
+.w95 {
+    width: 95%;
+    margin: auto;
+}
+
+li {
+    font-family: "littlefont";
+    width: 12%;
+    float: left;
+    font-size: 1.6rem;
+    margin-left: 140px;
+    color: black;
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo1 {
+    width: 100px;
+    height: 50px;
+    padding-bottom: 10px;
+    
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+
+main {
+    background-color: slateblue;
+}
+
+#w80 {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: "littlefont";
+    color: black;
+    font-size: 2.4rem;
+    padding: 30px 0px;
+    clear: both;
+}
+
+h3 {
+    font-family: "bigfont";
+    color: yellow;
+    font-size: 2rem;
+    clear: both;
+}
+
+#whitetitle {
+    color: white;
+}
+
+#besttitle {
+    text-align: center;
+    font-family: "bigfont";
+    color: yellow;
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+
+.gdeImg {
+    display: block;
+    width: 88%;
+    margin: auto;
+    padding: 90px 0px;
+}
+
+.littleimg {
+    width: 40%;
+    padding: 30px 0px;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+/* SECTION 2 */
+
+.w70 {
+    width: 70%;
+    margin: auto;  
+}
+
+h4 {
+    font-family: "bigfont";
+    color: yellow;
+    font-size: 1.6rem;
+}
+
+.petiteImg {
+    width: 600px;
+    height: 400px;
+    padding: 30px 0px;
+}
+
+/* SECTION 3 */
+
+.gdeImg2 {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.midtitle {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 80px;
+    padding: 5px;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
